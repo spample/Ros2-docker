@@ -38,3 +38,12 @@ docker start -ai ros2-container
   - -i: **Enable the standard input** for a computer program (keyboard inputs) 
 - ros2-container: This is the **name** of the container we want to start/resume
 
+
+
+docker run -it --rm \
+  --net=host \
+  -e DISPLAY=$DISPLAY \
+  -e QT_QPA_PLATFORM=xcb \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  ros2-humble \
+  bash
