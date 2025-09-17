@@ -43,6 +43,8 @@ docker start -ai ros2-container
 ### docker run for testing new things (to not create unnecessary containers)
 
 ```
+xhost +local:root
+
 docker run -it --rm \
   --net=host \
   -e DISPLAY=$DISPLAY \
