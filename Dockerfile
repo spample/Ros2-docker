@@ -27,6 +27,11 @@ RUN apt-get update && apt-get install -y \
 RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
     echo "fastfetch || true" >> /root/.bashrc
 
+# Copy Fastfetch config + ASCII
+RUN mkdir -p /root/.config/fastfetch
+COPY ./fastfetch/config.jsonc /root/.config/fastfetch/config.jsonc
+COPY ./fastfetch/ascii-art.txt /root/.config/fastfetch/ascii.txt
+
 WORKDIR /home
 COPY . .
 
