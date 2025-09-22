@@ -1,15 +1,12 @@
-
-
 {
   // Logo settings (uses your custom emblem)
   "logo": {
     "type": "file",
-    "source": "/root/.config/fastfetch/ascii.txt",
-    "color": {
-      "1": "blue"
-    },
+    "source": "/root/.config/fastfetch/RAS-ascii-art.ans",
     "padding": {
-      "top": 1
+      "top": 0,
+      "left": 0,
+      "right": 4
     }
   },
 
@@ -56,7 +53,6 @@
     { "type": "display",    "key": "│ ├󰍹 Display",       "keyColor": "green",    "compactType": "original-with-refresh-rate" },
     { "type": "memory",     "key": "│ ├󰾆 Memory",        "keyColor": "green" },
     { "type": "uptime",     "key": "│ ├ Uptime",        "keyColor": "green" },
-    { "type": "command",    "key": "│ ├󰓡 IP",            "keyColor": "green",     "text": "hostname -I | awk '{print $1}'"},
     { "type": "battery",    "key": "│ └ Battery",       "keyColor": "green" },
 
     // 🌈 Bottom Rainbow Bar
