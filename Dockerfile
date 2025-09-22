@@ -30,7 +30,7 @@ RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
 # Copy Fastfetch config + ASCII
 RUN mkdir -p /root/.config/fastfetch
 COPY ./fastfetch/config.jsonc /root/.config/fastfetch/config.jsonc
-COPY ./fastfetch/ascii-art.txt /root/.config/fastfetch/ascii.txt
+COPY ./fastfetch/RAS-ascii-art.ans /root/.config/fastfetch/RAS-ascii-art.ans
 
 WORKDIR /home
 COPY . .
