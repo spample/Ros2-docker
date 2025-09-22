@@ -24,7 +24,7 @@ https://docs.docker.com/desktop/setup/install/windows-install/
 docker build -t spample/ros2-humble:1.2.0 .
 ```
 
-### run docker container on windows
+### Run docker container on windows
 ```
 docker run -it --rm ^
 -v /run/desktop/mnt/host/wslg/.X11-unix:/tmp/.X11-unix ^
