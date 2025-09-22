@@ -45,7 +45,7 @@ git pull origin windows
 
 ### Build Docker container
 ```
-docker build -t spample/ros2-humble:1.2.0 .
+docker build -t spample/ros2-humble:1.3.0 .
 ```
 
 ### Run docker container on windows
@@ -57,10 +57,10 @@ docker run -it --rm ^
 -e WAYLAND_DISPLAY=wayland-0 ^
 -e XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir ^
 -e PULSE_SERVER=/mnt/wslg/PulseServer ^
-spample/ros2-humble:1.2.0 bash 
+spample/ros2-humble:1.3.0 bash 
 ```
 
 ### in case it is not pasting correctly here is a one-liner command:
 ```
-docker run -it --rm -v /run/desktop/mnt/host/wslg/.X11-unix:/tmp/.X11-unix -v /run/desktop/mnt/host/wslg:/mnt/wslg -e DISPLAY=:0 -e WAYLAND_DISPLAY=wayland-0 -e XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir -e PULSE_SERVER=/mnt/wslg/PulseServer spample/ros2-humble:1.2.0 bash
+docker run -it --rm -v /run/desktop/mnt/host/wslg/.X11-unix:/tmp/.X11-unix -v /run/desktop/mnt/host/wslg:/mnt/wslg -e DISPLAY=:0 -e WAYLAND_DISPLAY=wayland-0 -e XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir -e PULSE_SERVER=/mnt/wslg/PulseServer spample/ros2-humble:1.3.0 bash
 ```
