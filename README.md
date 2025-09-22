@@ -5,17 +5,23 @@ __Docker on windows__
 ### Install WSL on windows
 ```
 wsl --install
-
+```
+### or (if already installed) 
+```
 wsl --update
 ```
-### Install WSL driver
+### Install WSL into computer
 ```
 reboot
 ```
 ### Install Docker Desktop
 ```
 https://docs.docker.com/desktop/setup/install/windows-install/
+```
 
+### Build Docker container
+```
+docker build -t spample/ros2-humble:1.2.0 .
 ```
 
 ### run docker container on windows
@@ -27,5 +33,5 @@ docker run -it --rm ^
 -e WAYLAND_DISPLAY=wayland-0 ^
 -e XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir ^
 -e PULSE_SERVER=/mnt/wslg/PulseServer ^
-spample/ros2-humble:1.1.0 bash 
+spample/ros2-humble:1.2.0 bash 
 ```
