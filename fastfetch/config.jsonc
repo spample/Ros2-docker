@@ -39,9 +39,7 @@
     { "type": "wmtheme",      "key": "│ ┌󰉼 Theme",      "keyColor": "blue" },
     { "type": "icons",        "key": "│ ├󰀻 Icons",      "keyColor": "blue" },
     { "type": "terminalfont", "key": "│ ├🗚 Term Font",   "keyColor": "blue" },
-    { "type": "terminal",     "key": "│ ├ Terminal",   "keyColor": "blue" },
-    { "type": "command",      "key": "│ ├ Git User",   "keyColor": "blue",   "text": "git config --global user.name || echo 'N/A'"},
-    { "type": "command",      "key": "│ └ Website",      "keyColor": "blue",   "text": "echo https://spample.github.io/"},
+    { "type": "terminal",     "key": "│├└ Terminal",   "keyColor": "blue" },
 
     "break",
 

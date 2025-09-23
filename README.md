@@ -24,6 +24,7 @@ docker run -it --rm \
 ## Create a ROS2 container (same as previous command but without "--rm")
 ```
 docker run -it \
+  --name ros2-container \
   --net=host \
   -e DISPLAY=$DISPLAY \
   -e QT_QPA_PLATFORM=xcb \
