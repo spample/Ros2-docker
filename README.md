@@ -9,14 +9,15 @@ wsl --install
 ```
 wsl --update
 ```
-### Install WSL into computer
-```
-reboot
-```
 ### Install Docker Desktop
 ```
 https://docs.docker.com/desktop/setup/install/windows-install/
 ```
+### Install WSL into computer
+```
+reboot
+```
+
 #  Post Dependecies
 - Make a new folder for ros2 on your computer (make sure the folder is not connected to ONEDRIVE)
 
