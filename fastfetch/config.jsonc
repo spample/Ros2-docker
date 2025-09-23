@@ -39,7 +39,7 @@
     { "type": "wmtheme",      "key": "│ ┌󰉼 Theme",      "keyColor": "blue" },
     { "type": "icons",        "key": "│ ├󰀻 Icons",      "keyColor": "blue" },
     { "type": "terminalfont", "key": "│ ├🗚 Term Font",   "keyColor": "blue" },
-    { "type": "terminal",     "key": "│├└ Terminal",   "keyColor": "blue" },
+    { "type": "terminal",     "key": "│ └ Terminal",   "keyColor": "blue" },
 
     "break",
 
