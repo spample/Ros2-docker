@@ -26,7 +26,7 @@ https://docs.docker.com/desktop/setup/install/windows-install/
 ```
 git init
 git remote add origin 
-git remote add origin https://github.com/spample/Ros2-docker.git
+git remote add origin https://github.com/UTSARobotics/ros2-docker-crashcourse.git
 git fetch origin windows
 git pull origin windows
 ```
