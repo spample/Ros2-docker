@@ -2,26 +2,28 @@
 
 # WLS2 install
 ### Install WSL on windows
+- Paste this next line into your windows terminal
 ```
 wsl --install
 ```
 ### or (if already installed) 
+- This will update your "Windows Subsystem for Linux" if you already have it installed
 ```
 wsl --update
 ```
 ### Install Docker Desktop
+- Go to this website and download the appropriate Docker Desktop installation
 ```
 https://docs.docker.com/desktop/setup/install/windows-install/
 ```
 ### Install WSL into computer
 - reboot computer when asked to
-
+----
 #  Post Dependecies
 - Make a new folder for ros2 on your computer (make sure the folder is not connected to ONEDRIVE)
-
 ## Open folder location in terminal
 - right click the folder and press "Open in Terminal"
-## Grab necessary files from github
+### Grab necessary files from github
 ```
 git init
 git remote add origin 
